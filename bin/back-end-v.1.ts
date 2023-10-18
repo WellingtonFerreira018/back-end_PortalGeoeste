@@ -11,5 +11,5 @@ const env: cdk.Environment = {
 
 const tags = {
   const: "Back-end_PortalGeoeste",
-  team: "PortalGeoeste"
+  team: "PortalGeoeste-1"
 }
