@@ -22,7 +22,16 @@
     "strictPropertyInitialization": false,
     "typeRoots": [
       "./node_modules/@types"
-    ]
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "/opt/nodejs/mapsLayer": [
+        "lambda/maps/layers/mapsLayer/nodejs/mapRepository"
+      ],
+      "/opt/nodejs/categoriesLayer": [
+        "lambda/categories/layers/categoriesLayer/nodejs/categoryRepository"
+      ]
+    }
   },
   "exclude": [
     "node_modules",
